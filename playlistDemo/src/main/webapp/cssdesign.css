@@ -1,0 +1,76 @@
+--CSS design part--
+
+.navbar {
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    background-color: black;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: -40px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 1px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #008DFF;
+}
+
+ul li a:active {
+    color: #ff7200;
+}
+
+#bttn2 {
+    width: 100px;
+    height: 30px;
+    background: #008DFF;
+    border: 2px solid #008DFF;
+    color: #fff;
+    margin-left: 550px;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#bttn2:hover{
+    opacity: .7;
+}
+        
+.tbl1 {
+    background-color: black;
+}
+
+.img03 {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.welcome {
+    color: white;
+    font-family: Calibri;
+    margin-right: 200px;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+
+	<servlet>
+		<servlet-name>playlistInsert</servlet-name>
+		<servlet-class>com.playlist.PlaylistInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>playlistInsert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>updatePlaylist</servlet-name>
+		<servlet-class>com.playlist.UpdatePlaylistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updatePlaylist</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteplaylist</servlet-name>
+		<servlet-class>com.playlist.DeletePlaylistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteplaylist</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+</web-app>
